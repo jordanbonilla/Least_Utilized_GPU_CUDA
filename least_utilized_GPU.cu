@@ -16,7 +16,7 @@
 // License: All rights Reserved. See LICENSE.txt
 //--------------------------------------------------------------------------
 
-#include <cstdio> // Print statements
+#include <cstdio> // printf
 #include <cstring> // memcpy
 #include <stdlib.h> // popen, pclose, atoi, fread
 #include <cuda_runtime.h> // cudaGetDeviceCount, cudaSetDevice
