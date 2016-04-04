@@ -18,7 +18,7 @@
 
 #include <cstdio> // Print statements
 #include <cstring> // memcpy
-#include <stdlib.h> // popen
+#include <stdlib.h> // popen, pclose, atoi, fread
 #include <cuda_runtime.h> // cudaGetDeviceCount, cudaSetDevice
 
 // Select the least utilized GPU on this system. Estimate
@@ -81,3 +81,5 @@ int main(int argc, char **argv) {
 	select_GPU();
 	return 0;
 }
+
+
